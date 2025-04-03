@@ -100,7 +100,7 @@ footer {
 }
 
 /*Estilo do Botão */
-button { display: inline-block;
+.botão { display: inline-block;
 background-color: #000;
 color: white;
 padding: 12px 24px;
@@ -116,8 +116,14 @@ transition: all 0.3s ease;
 box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-.btn:hover {
-background-color: #000;
+.botão:hover {
+background-color: #9d8189;
 transform: translateY(-2px);
 box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Mantém a cor do texto igual ao elemento pai */
+    outline: none; /* Remove o contorno em foco (opcional) */
 }

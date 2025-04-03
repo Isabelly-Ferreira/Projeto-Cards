@@ -116,3 +116,9 @@ footer {
         font-size: 1.8em;
     }
 }
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Mantém a cor do texto igual ao elemento pai */
+    outline: none; /* Remove o contorno em foco (opcional) */
+}
